@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Motor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>PROGRAM PENJUALAN MOTOR</h1>
+        <hr>
+        <div>
+            <table>
+                <th></th>
+                <tr>
+                    <td>Merk Motor</td>
+                    <td>
+                        <select id="merk_motor">
+                            <option value="honda">HONDA</option>
+                            <option value="yamaha">YAMAHA</option>
+                            <option value="suzuki">SUZUKI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aksesoris</td>
+                    <td>
+                        <input type="checkbox" id="velg" value="450000"> Velg Racing<br>
+                        <input type="checkbox" id="helm" value="250000"> Helm<br>
+                        <input type="checkbox" id="jaket" value="300000"> Jaket
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cara Pembayaran</td>
+                    <td>
+                        <input type="radio" id="tunai" name="pembayaran" value="tunai" checked> Tunai<br>
+                        <input type="radio" id="kredit" name="pembayaran" value="kredit"> Kredit
+                    </td>
+                </tr>
+                <tr>
+                    <td>Harga</td>
+                    <td>
+                        <input type="text" id="harga" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bunga/Diskon</td>
+                    <td>
+                        <input type="text" id="bunga_diskon" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>
+                        <input type="text" id="total" readonly>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <button onclick="proses()">Proses</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+        <p>Jika Membayar Secara Tunai akan Mendapat Diskon 10%<br>
+            Jika membayar secara kredit akan kena bunga 15%</p>
+        <hr>
+    </center>
+</body>
+
+</html>

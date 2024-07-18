@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Penjualan Barang</title>
+</head>
+<style>
+    .button{
+        margin-right: 0%;
+        margin-left: 45.5%;
+    }
+    .yak{
+        text-align: justify;
+    }
+</style>
+<script src="javascript.js"></script>
+<body>
+
+    <h2 align="center">PROGRAM PENJUALAN BARANG</h2>
+    <hr width="500" color="black" noshade>
+    <div class="yak">
+    <table align="center">
+        <tr>
+      <th>Nama Barang </th>
+      <td>:<input type="text" id="namaBarang"></td>
+    </tr>
+    <tr>
+      <th>Harga</th>
+      <td>:<input type="number" id="harga"></td>
+    </tr>
+    <tr>
+      <th>Jumlah</th>
+      <td>:<input type="number" id="jumlah"></td>
+    </tr>
+    <tr>
+        <th>Total</th>
+        <td>:<input type="number" id="total" readonly></td>
+      </tr>
+      <tr>
+        <th>Diskon</th>
+        <td>:<input type="number" id="diskon"></td>
+      </tr>
+      <tr>
+        <th>Bayar</th>
+        <td>:<input type="number" id="bayar" readonly></td>
+      </tr>
+    </table>
+    </div>
+    <div class="button">
+        <button onclick="hitungTotal()">proses</button>
+        <button onclick="resetForm()">Reset</button>
+    </div>
+</html>

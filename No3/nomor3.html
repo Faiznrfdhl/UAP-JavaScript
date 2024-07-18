@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Pembelian Barang</title>
+</head>
+<script src="javascript.js"></script>
+<body>
+  <center><h2>FORM PEMBELIAN BARANG</h2><hr size=2 color="black"> 
+    <table>
+        <tr>
+          <td><label for="namaBarang">Nama Barang</label></td>
+          <td>
+            <select id="namaBarang">
+              <option value="Monitor">Monitor</option>
+              <option value="Monitor">Komputer</option>
+              <option value="Monitor">Keyboard</option>
+              <option value="Monitor">Mouse</option>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jumlah">Jumlah</label></td>
+          <td><input type="number" id="jumlah" name="jumlah"></td>
+        </tr>
+        <tr>
+            </select>
+          </td>
+        </tr>
+        <td><label for="Harga">Harga</label></td>
+        <td><input type="number" id="harga" name="harga"></td>
+        </tr>
+        <tr>
+            <td><label for="Total">Total</label></td>
+            <td><input type="number" id="total" name="total"></td>
+        </tr>
+        <tr>
+        </table>
+        <hr size=2 color="black"> 
+        <button type="button" onclick="proses()">Proses</button>
+        <button type="reset">Reset</button>
+    </center>
+</body>
+</html>
