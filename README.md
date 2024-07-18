@@ -1,4 +1,4 @@
-# UAS-JavaScript
+# UAP-JavaScript
 Ujian Akhir Semester
 Mengerjakan HTML & JavaScript
 
