@@ -1,5 +1,5 @@
 # UAP-JavaScript
-Ujian Akhir Semester
+Ujian Akhir Praktikum
 Mengerjakan HTML & JavaScript
 
 Nama  : Faiz Nurfaadhil Ihsan
